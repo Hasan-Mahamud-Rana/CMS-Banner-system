@@ -1,0 +1,10 @@
+.login h1 a {
+  background-image: url(../images/BordingVista-logo-rgb.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  width: 250px;
+  text-indent: -9999px;
+  overflow: hidden;
+  display: block;
+}

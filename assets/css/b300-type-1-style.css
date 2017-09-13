@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+
+body{
+  font-family: 'Droid Sans', sans-serif;
+}
+p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+a:link, a:visited:link {
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+text-decoration: none;
+}
+/*----Type 1----*/
+.b300.row{
+  width: 300px; max-width: 300px; height: 250px; max-height: 250px;
+}
+div.listing{
+  padding-right: 0;
+  padding-left: 0;
+}
+div.listing a{
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin: 4px 8px;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(33,33,33,1);
+-moz-box-shadow: 0px 0px 6px 0px rgba(33,33,33,1);
+box-shadow: 0px 0px 6px 0px rgba(33,33,33,1);
+}
+div.listing.noContent a {
+  height: 250px;
+}
+span.info{
+  display: block;
+  padding-top: 10px;
+  height: 45px;
+  text-align: center;
+}
+div.listing a.sloganEnabled {
+  height: 145px;
+}
+a.sloganEnabled span.info{
+  margin-top: 100px;
+}
+a.company-logo{
+  display: block;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-top: 12px;
+  background-size: contain;
+}
+a.sloganEnabled.company-logo{
+  margin-top: 12px;
+  height: 27px;
+}
+span.slideTitle{
+  display: block;
+  font-size: 13px;
+  color: #767479;
+  font-weight: bold;
+  text-align: center;
+}
+span.slideDescription{
+  display: block;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.slogan{
+  color: #FFFFFF;
+  padding: 7px;
+  font-size: 13px;
+}
+span.statusBar.top-right {
+  float: right;
+  position: relative;
+  width: 100%;
+  height: 47px;
+  right: 0;
+  top: -46px;
+  background-image: url(../images/status-bar-bg.png);
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+span.slideStatus.top-right {
+  float: right;
+  right: 3px;
+  overflow: hidden;
+  position: relative;
+  color:#FFFFFF;
+  top: 11px;
+  font-size:11px;
+  text-align:center;
+  /* transform: rotate(329deg); */
+  -webkit-transform: rotate(26deg);
+  -moz-transform: rotate(26deg);
+  -o-transform: rotate(26deg);
+  -ms-transform: rotate(26deg); /* IE9+ */
+}
+span.statusBar.bottom-right {
+  float: right;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  right: 0;
+  bottom: -56px;
+  background-image: url(../images/status-bar-bottom-bg.png);
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+span.slideStatus.bottom-right {
+  float: right;
+  right: -3px;
+  width: 70px;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+  top: 25px;
+  line-height: 12px;
+  font-size: 10px;
+  text-align: center;
+  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+}
+.tricky{
+  display: block !important;
+}
+.theContent p {
+  margin-top: 3px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+.theContent p a {
+  font-size: 20px;
+  color: #14151a;
+  font-weight: bold;
+}
+span.seeAll {
+  font-size: 15px;
+  display: block;
+  margin-top: 65px;
+  text-align: center;
+  color: #c01e00;
+  font-weight: bold;
+}

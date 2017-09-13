@@ -1,0 +1,6 @@
+.acf-table > thead > tr > th:nth-child(4) {
+  display: none;
+}
+td.toHide {
+	display: none;
+}
